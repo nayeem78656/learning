@@ -132,21 +132,20 @@ img.rt_hero_header_img {
 }
 .lt_welcome_banner {
     padding-right: 40px;
-    width: 50%;
+    width: 43%;
 }
 h2.lt_welcome_primary_heading {
     color: #094684;
-    font-size: 50px;
+    font-size: 49px;
     margin: 15px 0px 10px;
 }
 h3.lt_welcome_secondary_heading {
     color: #2ea346;
-    font-size: 34px;
+    font-size: 33px;
     margin: 0px 0px 35px;
 }
 p.lt_welcome_para {
-    margin: 0px 0px 20px;
-    font-size: 20px;
+    margin: 0px 0px 38px;
 }
 button.button {
     display: flex;
@@ -170,4 +169,48 @@ img.right_arrow {
 }
 img.rt_welcome_img {
     width: 88%;
+}
+/* about page start */
+.about_page {
+    display: flex;
+    background: #094684;
+    align-items: center;
+}
+.about_page div {
+    padding: 45px 45px 45px 55px;
+}
+.about_page h3 {
+    color: white;
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.about_page p {
+    color: white;
+    font-size: 17px;
+}
+img.lt_about_page_img {
+    width: 25%;
+}
+img.rt_about_page_img {
+    width: 26%;
+}
+.about_page button {
+    width: 160px;
+    padding: 9px 25px 10px;
+    background: none;
+    border-color: white;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    align-items: center;
+    display: flex;
+}
+.about_page a {
+    color: white;
+    text-decoration: none;
+}
+img.r_arrow {
+    width: 20px;
+    margin-left: 10px;
 }
