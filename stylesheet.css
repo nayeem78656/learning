@@ -125,6 +125,11 @@ img.rt_hero_header_img {
     display: block;
 }
 /* main header end */
+/* banner start */
+img.banner_img {
+    width: 100%;
+}
+/* banner end*/
 /* welcome-banner start */
 .welcome_banner {
     display: flex;
@@ -547,8 +552,13 @@ h5.year_of_service_heading {
 .head_office {
     width: 33.3%;
 }
+h4.head_office_heading {
+    color: white;
+    font-size: 20px;
+}
 ul.head_office_menu {
     list-style: none;
+    padding: 0;
 }
 li.head_office_location {
     display: flex;
@@ -570,9 +580,33 @@ p.head_office_address {
 .quick_links {
     width: 33.3%;
 }
+h4.quick_links_heading {
+    font-size: 20px;
+    color: white;
+}
+ul.head_office_menu {
+    list-style: none;
+    padding: 0;
+}
+ul.quick_links_list {
+    list-style: none;
+    padding: 0;
+}
+.quick_links_list a {
+    color: white;
+    text-decoration: none;
+}
 .branches{
     width: 33.3%;
 }
+h4.branches_heading {
+    color: white;
+    font-size: 20px;
+}
+.branches div {
+    color: white;
+}
+
 .head_office_landline img {
     width: 20px;
 }
@@ -584,5 +618,16 @@ p.head_office_address {
     align-items: center;
     background: #525252;
     margin-top: 1px;
+}
+.footer_bottom p {
+    color: white;
+}
+.mdm_footer_bottom a {
+    color: white;
+    text-decoration: none;
+}
+p a {
+    color: white;
+    text-decoration: none;
 }
 /* footer bottom end */
