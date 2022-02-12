@@ -196,7 +196,7 @@ img.rt_welcome_img {
     font-size: 17px;
 }
 img.lt_about_page_img {
-    width: 25%;
+    width: 20%;
 }
 img.rt_about_page_img {
     width: 26%;
@@ -236,14 +236,16 @@ p.services_offered_para {
     flex-wrap: wrap;
     max-width: 1280px;
     margin: 0 auto;
+    grid-gap: 15px 25px;
+    justify-content: center;
+    padding-bottom: 35px;
 }
 .auditing_and_assurance{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1a8dae;
-    margin-bottom: 15px;
+    background: url(https://ajmohan.com/wp-content/themes/ajmohan/images/Srv_bx1_bg.jpg);
 }
 .service_offered_content img {
     width: 20%;
@@ -263,12 +265,11 @@ p.services_offered_para {
     font-weight: 100;
 }
 .corporate_advisory{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1a8dae;
-    margin-bottom: 15px;
+    background: url(https://ajmohan.com/wp-content/themes/ajmohan/images/Srv_bx1_bg.jpg);
 }
 .corporate_advisory_content {
     width: 50%;
@@ -285,12 +286,11 @@ p.services_offered_para {
     font-weight: 100;
 }
 .tax_and_tax{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1a8dae;
-    margin-bottom: 15px;
+    background: url(https://ajmohan.com/wp-content/themes/ajmohan/images/Srv_bx1_bg.jpg);
 }
 .tax_and_tax_content {
     width: 50%;
@@ -307,12 +307,11 @@ p.services_offered_para {
     font-weight: 100;
 }
 .accounting_and_outsourced{
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1a8dae;
-    margin-bottom: 15px;
+    background: url(https://ajmohan.com/wp-content/themes/ajmohan/images/Srv_bx1_bg.jpg);
 }
 .accounting_and_outsourced_content {
     width: 50%;
@@ -348,57 +347,66 @@ h2.practice_specialities_heading {
     align-items: center;
 }
 .psu_govt {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.psu_govt_heading {
     color: white;
 }
 .banks_and_financial {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.banks_and_financial_heading {
     color: white;
 }
 .transportation {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.transportation_heading {
     color: white;
 }
 .manufacturing {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.manufacturing_heading {
     color: white;
 }
 .infrastructure {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px;
+    margin-left: 136px;
 }
 h4.infrastructure_heading {
     color: white;
 }
 .pharmaceuticals_and_healthcare {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.pharmaceuticals_healthcare_heading {
     color: white;
 }
 .service_sector {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.service_sector_heading {
     color: white;
 }
 .other_sector {
-    width: 25%;
+    width: 20%;
     text-align: center;
+    padding: 0px 15px
 }
 h4.other_sector_heading {
     color: white;
